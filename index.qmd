@@ -1,0 +1,15 @@
+---
+title: "Análisis de datos"
+author:
+  - name:
+      given: Juan Camilo
+      family: Arboleda Rivera
+    email: juan.arboleda2@udea.edu.co
+---
+
+En esta página encontrarás el material del minicurso de análisis de datos.
+
+Diapositivas:
+
+- [Introducción](0-intro/0-intro.qmd)
+- [Análisis de datos en R](1-R/1-R.qmd)

@@ -1,0 +1,102 @@
+---
+title: 'Análisis de datos en R'
+author: 'Juan Camilo Arboleda Rivera'
+format:
+  revealjs:
+    slide-number: true
+    chalkboard: true
+    footer: Juan Camilo Arboleda Rivera, 2024
+    theme: ../styles.scss
+    width: 1920
+    height: 1080
+    code-line-numbers: false
+    multiplex: true
+---
+
+# Instalación de software
+
+## Instalando R en Linux
+
+En una terminal de Linux ejecutar el siguiente comando:
+```bash
+sudo apt install r-base
+```
+
+## Instalando RStudio
+
+1. Ir a la página de [RStudio](https://posit.co/download/rstudio-desktop/).
+1. Descargar RStudio.
+1. Instalar RStudio con el comando:
+
+```{.bash}
+sudo dpkg -i rstudio-2024.04.1-748-amd64.deb
+```
+
+![](https://posit.co/wp-content/uploads/2022/10/thumbnail-3.jpg){fig-align="center"}
+
+# Introducción
+
+## Texto guía {.nostretch}
+
+[![](https://es.r4ds.hadley.nz/cover.png){height=900px fig-align="center"}](https://r4ds.hadley.nz/)
+
+## Panorama general del trabajo en Ciencia de Datos
+
+![](https://es.r4ds.hadley.nz/diagrams_w_text_as_path/es/data-science.svg)
+
+## Datos Tidy vs Untidy
+
+```{python}
+#| echo: False
+
+import pandas as pd
+from itables import show
+
+df = pd.read_csv('../datos/untidy.tsv', sep='\t')
+#df.style.hide()
+show(df)
+```
+
+## Datos bien ordenados
+
+Existen tres reglas interrelacionadas que hacen que un conjunto de datos sea
+ordenado^[[R Para Ciencia de Datos](https://es.r4ds.hadley.nz/12-tidy.html)]:
+
+1. Cada variable debe tener su propia columna.
+2. Cada observación debe tener su propia fila.
+3. Cada valor debe tener su propia celda.
+
+![](https://es.r4ds.hadley.nz/diagrams_w_text_as_path/es/tidy-1.svg)
+
+[Artículo de Hadley Wickam sobre datos
+ordenados](https://vita.had.co.nz/papers/tidy-data.pdf)
+
+## Los formatos TSV, CSV, ODS y... xlsx
+
+::: {.incremental}
+Formatos abiertos:
+
+- **TSV:** Tab Separated Values (Valores separados por tabulación)
+- **CSV:** Comma Separated Values (Valores separados por coma)
+- **ODS**: OpenDocument Spreadsheet (Hoja de cálculo de OpenDocument)
+
+Formato propietario:
+
+- **xlsx:** Excel Spreadsheet XML
+:::
+
+## ¿Por qué usar formatos abiertos?
+
+![](https://i.ytimg.com/vi/2qmXYlRTXVA/maxresdefault.jpg)
+
+# R
+
+## El Tidyverse
+
+![](https://rviews.rstudio.com/post/2017-06-09-What-is-the-tidyverse_files/tidyverse1.png){fig-align="center"}
+
+Para instalar el Tidyverse ejecutar el siguiente comando en R:
+```R
+# Install from CRAN
+install.packages("tidyverse")
+```

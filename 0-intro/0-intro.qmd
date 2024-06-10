@@ -1,0 +1,95 @@
+---
+title: 'Análisis de datos'
+author: Juan Camilo Arboleda Rivera
+format:
+  revealjs:
+    slide-number: true
+    chalkboard: true
+    footer: Juan Camilo Arboleda Rivera, UdeA, 2024
+    theme: "../styles.scss"
+    width: 1920
+    height: 1080
+    code-line-numbers: false
+    multiplex: true
+---
+
+# Lo importante es tener datos
+
+En este curso vamos a tomar datos de plantas, y aprovecharemos para mapear
+algunas de ellas en [OpenStreetMap](https://www.openstreetmap.org)
+
+![](https://miro.medium.com/v2/resize:fit:800/1*gCK9jm3-ZJ9fJpzX0c9BYg.jpeg){fig-align='center'}
+
+---
+
+::: {layout-ncol=2}
+
+![](imgs/ju2022.png)
+
+![](imgs/pinho2023.png)
+
+:::
+---
+
+::: {layout-ncol=2}
+![](imgs/zhou2020.png)
+
+![](imgs/becirovic2022.png)
+
+:::
+
+# Hay que tomar datos
+
+![](https://i.pinimg.com/originals/a4/b5/a4/a4b5a4fceb83f0e93c721596a77317ea.jpg)
+
+---
+
+![](imgs/leaf.svg){fig-align="center"}
+
+Medir estos rasgos en [*Alternanthera albotomentosa*](https://colplanta.org/taxon/urn:lsid:ipni.org:names:10265-2) y tal vez otra especie.
+
+¿Cómo deberíamos elegir las plantas a medir?
+
+---
+![](https://www.questionpro.com/blog/wp-content/uploads/2017/05/muestreo-aleatorio-02-1.jpg)
+
+# Otros datos a tomar
+
+Para nuestra planta de estudio:
+
+::: {.incremental}
+- Número de inflorescencias.
+- Distancia al árbol más cercano.
+- Cobertura arbórea.
+- Signos de herviboría o enfermedades.
+- Quién hizo la medición.
+:::
+
+Para los árboles:
+
+::: {.incremental}
+- [Diámetro a la altura del pecho (DAP)](https://es.wikipedia.org/wiki/Di%C3%A1metro_a_la_altura_del_pecho). Se calcula a partir del CAP.
+- Localización geográfica.
+- Altura del árbol
+:::
+
+## Altura del árbol
+
+![<http://wiki.awf.forst.uni-goettingen.de/wiki/index.php/The_trigonometric_principle>](http://wiki.awf.forst.uni-goettingen.de/wiki/images/thumb/b/b0/Tree_height_pole.png/550px-Tree_height_pole.png)
+
+# ¿Qué más datos analizar?
+
+::: {.incremental}
+- ¿Asimetría en las hojas?
+- ¿Grosor de la hoja?
+- ¿Número de hojas de la planta?
+- ¿Distancia entre nudos?
+:::
+
+# Tabular los datos
+
+|ID planta| Lon  | Lat   | Ancho hoja | Largo hoja | Largo pecíolo | Cobertura |
+|---------|------|-------|------------|------------|---------------|-----------|
+|JCAR01| 6.42 | -75.3 | 25 mm      | 80 mm      |    18 mm      |   10%     |
+
+# ¡Vamos a tomar datos!
