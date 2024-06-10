@@ -1,0 +1,107 @@
+[
+  {
+    "objectID": "1-R/recursos.html",
+    "href": "1-R/recursos.html",
+    "title": "Datos",
+    "section": "",
+    "text": "Versión en español del curso https://tereom.github.io/est_computacional/01-Intro-R/R_analisis_datos_visualizacion https://rviews.rstudio.com/2017/06/08/what-is-the-tidyverse/ https://bookdown.org/gaston_becerra/curso-intro-r/analisis-de-datos-con-r.html https://rpubs.com/Andersson_Vargas/1120758 https://swcarpentry.github.io/r-novice-gapminder-es/ https://datos.gob.es/es/noticia/open-access-la-verde-la-dorada-y-la-hibrida"
+  },
+  {
+    "objectID": "0-intro/0-intro.html#altura-del-árbol",
+    "href": "0-intro/0-intro.html#altura-del-árbol",
+    "title": "Análisis de datos",
+    "section": "Altura del árbol",
+    "text": "Altura del árbol\n\nhttp://wiki.awf.forst.uni-goettingen.de/wiki/index.php/The_trigonometric_principle"
+  },
+  {
+    "objectID": "diapos/ideas.html",
+    "href": "diapos/ideas.html",
+    "title": "ANOVA",
+    "section": "",
+    "text": "Medir rasgos de plantas, por ejemplo largo y ancho de las hojas, diámetro a la altura del pecho, si son Agavaceas el número de dientes en las hojas.\nEn palmeras distancias entre nudos y tal vez correlacionarlo con su altura o especie.\nTal vez estudiar una sola especie y ver si condiciones del microclima pueden relacionarse con el largo de sus hojas o su ancho o cosas así.\nPor ejemplo, se podría estudiar Tradescantia zebrina, que hay muchas por toda la universidad.\n¿Mirar asimetría en las hojas quizás? ¿Grosor de la hoja?\nConjuntos de datos de plantas https://experts.illinois.edu/en/organisations/plant-biology/datasets/\nTener alguna variable categórica, por ejemplo tamaño de la planta, o tipo de planta o aguna cosa así.\n\nANOVA\nHacer una ANOVA para ver si hay diferencias entre las personas que hicieron la medición.\nCometer errores a propósito al insertar los datos para luego hablar sobre los outliers."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Análisis de datos",
+    "section": "",
+    "text": "En esta página encontrarás el material del minicurso de análisis de datos.\nDiapositivas:\n\nIntroducción\nAnálisis de datos en R"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
+    "objectID": "diapos/recursos-adicionales.html",
+    "href": "diapos/recursos-adicionales.html",
+    "title": "Datos",
+    "section": "",
+    "text": "Libro Python for Data Analysis\nProgramación en R\n\nLibro principal el mejor de todos los tiempos: - R4 Data Science\n\nAdvanced R, de Wickham\nHappy Git de Jennifer Bryan\nrenv\ntidystats: Conjunto de paquetes para hacer pruebas estadísticas.\neasystats: Más cosas de estadística muy chévere.\nExtensiones asombrosas para ggplot2\nGalería con gráficos muy bonitos\n\n\n\nCapas de ggplot2\n\n\n\nBuscar más información sobre estas capas de ggplot2 y cómo funcionan. En esta página hay más información.\nBuscar también “la gramática de los gráficos”.\npkgdown: Sistema para generar paquetes de R."
+  },
+  {
+    "objectID": "1-R/1-R.html#instalando-r-en-linux",
+    "href": "1-R/1-R.html#instalando-r-en-linux",
+    "title": "Análisis de datos en R",
+    "section": "Instalando R en Linux",
+    "text": "Instalando R en Linux\nEn una terminal de Linux ejecutar el siguiente comando:\nsudo apt install r-base"
+  },
+  {
+    "objectID": "1-R/1-R.html#instalando-rstudio",
+    "href": "1-R/1-R.html#instalando-rstudio",
+    "title": "Análisis de datos en R",
+    "section": "Instalando RStudio",
+    "text": "Instalando RStudio\n\nIr a la página de RStudio.\nDescargar RStudio.\nInstalar RStudio con el comando:\n\nsudo dpkg -i rstudio-2024.04.1-748-amd64.deb"
+  },
+  {
+    "objectID": "1-R/1-R.html#texto-guía",
+    "href": "1-R/1-R.html#texto-guía",
+    "title": "Análisis de datos en R",
+    "section": "Texto guía",
+    "text": "Texto guía"
+  },
+  {
+    "objectID": "1-R/1-R.html#panorama-general-del-trabajo-en-ciencia-de-datos",
+    "href": "1-R/1-R.html#panorama-general-del-trabajo-en-ciencia-de-datos",
+    "title": "Análisis de datos en R",
+    "section": "Panorama general del trabajo en Ciencia de Datos",
+    "text": "Panorama general del trabajo en Ciencia de Datos"
+  },
+  {
+    "objectID": "1-R/1-R.html#datos-tidy-vs-untidy",
+    "href": "1-R/1-R.html#datos-tidy-vs-untidy",
+    "title": "Análisis de datos en R",
+    "section": "Datos Tidy vs Untidy",
+    "text": "Datos Tidy vs Untidy\n\n\n\n\n    \n      \n      Longitud hoja\n      Ancho hoja\n      Localización\n      Distancia al árbol más cercano\n      0-10 inflorescencias\n      10-20 inflorescencias\n    \n  \n\n\n\n    \n        \n        \n        \n        \n        \n        \n        \n        \n    \n    \n   \n    \n      \n  \n        \n    \n    \n  \n        \n    \n    \n  \n        \n    \n      \n  \n        \n            \n                \n                \n            \n\n            \n                \n                \n            \n\n            \n                \n                \n            \n\n            \n                \n                \n            \n\n            \n                \n                \n            \n        \n    \n\n\n\n\nLoading ITables v2.0.1 from the internet...\n(need help?)"
+  },
+  {
+    "objectID": "1-R/1-R.html#datos-bien-ordenados",
+    "href": "1-R/1-R.html#datos-bien-ordenados",
+    "title": "Análisis de datos en R",
+    "section": "Datos bien ordenados",
+    "text": "Datos bien ordenados\nExisten tres reglas interrelacionadas que hacen que un conjunto de datos sea ordenado1:\n\nCada variable debe tener su propia columna.\nCada observación debe tener su propia fila.\nCada valor debe tener su propia celda.\n\n\nArtículo de Hadley Wickam sobre datos ordenados\nR Para Ciencia de Datos"
+  },
+  {
+    "objectID": "1-R/1-R.html#los-formatos-tsv-csv-ods-y-xlsx",
+    "href": "1-R/1-R.html#los-formatos-tsv-csv-ods-y-xlsx",
+    "title": "Análisis de datos en R",
+    "section": "Los formatos TSV, CSV, ODS y… xlsx",
+    "text": "Los formatos TSV, CSV, ODS y… xlsx\n\nFormatos abiertos:\n\nTSV: Tab Separated Values (Valores separados por tabulación)\nCSV: Comma Separated Values (Valores separados por coma)\nODS: OpenDocument Spreadsheet (Hoja de cálculo de OpenDocument)\n\nFormato propietario:\n\nxlsx: Excel Spreadsheet XML"
+  },
+  {
+    "objectID": "1-R/1-R.html#por-qué-usar-formatos-abiertos",
+    "href": "1-R/1-R.html#por-qué-usar-formatos-abiertos",
+    "title": "Análisis de datos en R",
+    "section": "¿Por qué usar formatos abiertos?",
+    "text": "¿Por qué usar formatos abiertos?"
+  },
+  {
+    "objectID": "1-R/1-R.html#el-tidyverse",
+    "href": "1-R/1-R.html#el-tidyverse",
+    "title": "Análisis de datos en R",
+    "section": "El Tidyverse",
+    "text": "El Tidyverse\n\nPara instalar el Tidyverse ejecutar el siguiente comando en R:\n# Install from CRAN\ninstall.packages(\"tidyverse\")\n\n\n\nJuan Camilo Arboleda Rivera, 2024"
+  }
+]
